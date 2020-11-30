@@ -65,14 +65,14 @@ public class addflight extends javax.swing.JInternalFrame {
         txtsource = new javax.swing.JComboBox<>();
         txtdepart = new javax.swing.JComboBox<>();
 
-        jPanel1.setBackground(new java.awt.Color(51, 51, 255));
+        jPanel1.setBackground(new java.awt.Color(153, 204, 255));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Flight ID");
 
         txtflightid.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        txtflightid.setForeground(new java.awt.Color(255, 255, 0));
+        txtflightid.setForeground(new java.awt.Color(0, 0, 102));
         txtflightid.setText("jLabel2");
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N

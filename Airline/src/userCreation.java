@@ -56,6 +56,8 @@ public class userCreation extends javax.swing.JInternalFrame {
         jButton2 = new javax.swing.JButton();
         txtpassword = new javax.swing.JPasswordField();
 
+        setBackground(new java.awt.Color(153, 204, 255));
+
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("User Creation"));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -74,7 +76,7 @@ public class userCreation extends javax.swing.JInternalFrame {
         jLabel5.setText("Password");
 
         txtuserid.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        txtuserid.setForeground(new java.awt.Color(255, 0, 0));
+        txtuserid.setForeground(new java.awt.Color(0, 102, 204));
         txtuserid.setText("jLabel6");
 
         jButton1.setText("Add");
