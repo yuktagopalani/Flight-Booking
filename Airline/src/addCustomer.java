@@ -90,7 +90,7 @@ public class addCustomer extends javax.swing.JInternalFrame {
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
 
-        jPanel1.setBackground(new java.awt.Color(51, 0, 255));
+        jPanel1.setBackground(new java.awt.Color(153, 204, 255));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
@@ -188,10 +188,10 @@ public class addCustomer extends javax.swing.JInternalFrame {
         jLabel6.setText("Customer ID");
 
         txtid.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
-        txtid.setForeground(new java.awt.Color(255, 0, 0));
+        txtid.setForeground(new java.awt.Color(0, 102, 255));
         txtid.setText("jLabel7");
 
-        jPanel2.setBackground(new java.awt.Color(51, 0, 255));
+        jPanel2.setBackground(new java.awt.Color(153, 204, 255));
 
         jLabel8.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));

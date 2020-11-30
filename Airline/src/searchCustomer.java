@@ -94,7 +94,7 @@ public class searchCustomer extends javax.swing.JInternalFrame {
         txtcustid = new javax.swing.JTextField();
         jButton4 = new javax.swing.JButton();
 
-        jPanel1.setBackground(new java.awt.Color(51, 0, 255));
+        jPanel1.setBackground(new java.awt.Color(153, 204, 255));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
@@ -191,7 +191,7 @@ public class searchCustomer extends javax.swing.JInternalFrame {
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel6.setText("Customer ID");
 
-        jPanel2.setBackground(new java.awt.Color(51, 0, 255));
+        jPanel2.setBackground(new java.awt.Color(153, 204, 255));
 
         jLabel8.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));

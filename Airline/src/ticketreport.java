@@ -44,6 +44,8 @@ PreparedStatement pst;
         jTable1 = new javax.swing.JTable();
         jButton1 = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(153, 204, 255));
+
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
