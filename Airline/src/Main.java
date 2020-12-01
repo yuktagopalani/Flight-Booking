@@ -41,6 +41,7 @@ public class Main extends javax.swing.JFrame {
         jMenuItem4 = new javax.swing.JMenuItem();
         jMenu4 = new javax.swing.JMenu();
         jMenuItem5 = new javax.swing.JMenuItem();
+        jMenuItem7 = new javax.swing.JMenuItem();
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/bao-menglong--FhoJYnw-cg-unsplash.jpg"))); // NOI18N
 
@@ -48,10 +49,19 @@ public class Main extends javax.swing.JFrame {
 
         jDesktopPane1.setBackground(new java.awt.Color(153, 204, 255));
 
+        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/bao-menglong--FhoJYnw-cg-unsplash.jpg"))); // NOI18N
+        jLabel2.addHierarchyBoundsListener(new java.awt.event.HierarchyBoundsListener() {
+            public void ancestorMoved(java.awt.event.HierarchyEvent evt) {
+            }
+            public void ancestorResized(java.awt.event.HierarchyEvent evt) {
+                jLabel2AncestorResized(evt);
+            }
+        });
 
         jLabel3.setFont(new java.awt.Font("Castellar", 1, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(0, 0, 51));
+        jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setText("WELCOME TO AIRLINES BOOKING SYSTEM");
 
         jDesktopPane1.setLayer(jLabel2, javax.swing.JLayeredPane.DEFAULT_LAYER);
@@ -61,23 +71,19 @@ public class Main extends javax.swing.JFrame {
         jDesktopPane1.setLayout(jDesktopPane1Layout);
         jDesktopPane1Layout.setHorizontalGroup(
             jDesktopPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jDesktopPane1Layout.createSequentialGroup()
-                .addGap(18, 18, 18)
-                .addComponent(jLabel2)
-                .addContainerGap(19, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jDesktopPane1Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 466, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(99, 99, 99))
+                .addGap(189, 189, 189)
+                .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, 466, Short.MAX_VALUE)
+                .addGap(188, 188, 188))
+            .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         jDesktopPane1Layout.setVerticalGroup(
             jDesktopPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jDesktopPane1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, 45, Short.MAX_VALUE)
+                .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, 81, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 418, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(22, 22, 22))
+                .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, 527, Short.MAX_VALUE))
         );
 
         jMenu1.setBackground(new java.awt.Color(102, 102, 102));
@@ -134,6 +140,11 @@ public class Main extends javax.swing.JFrame {
         jMenuBar1.add(jMenu3);
 
         jMenu4.setText("User");
+        jMenu4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenu4ActionPerformed(evt);
+            }
+        });
 
         jMenuItem5.setText("UserCreation");
         jMenuItem5.addActionListener(new java.awt.event.ActionListener() {
@@ -142,6 +153,14 @@ public class Main extends javax.swing.JFrame {
             }
         });
         jMenu4.add(jMenuItem5);
+
+        jMenuItem7.setText("Change Password");
+        jMenuItem7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem7ActionPerformed(evt);
+            }
+        });
+        jMenu4.add(jMenuItem7);
 
         jMenuBar1.add(jMenu4);
 
@@ -216,6 +235,22 @@ public class Main extends javax.swing.JFrame {
         
     }//GEN-LAST:event_jMenuItem5ActionPerformed
 
+    private void jLabel2AncestorResized(java.awt.event.HierarchyEvent evt) {//GEN-FIRST:event_jLabel2AncestorResized
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jLabel2AncestorResized
+
+    private void jMenu4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenu4ActionPerformed
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_jMenu4ActionPerformed
+
+    private void jMenuItem7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem7ActionPerformed
+        // TODO add your handling code here:
+        changePassword cp= new changePassword();
+        jDesktopPane1.add(cp);
+        cp.setVisible(true);
+    }//GEN-LAST:event_jMenuItem7ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -267,5 +302,6 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JMenuItem jMenuItem5;
     private javax.swing.JMenuItem jMenuItem6;
+    private javax.swing.JMenuItem jMenuItem7;
     // End of variables declaration//GEN-END:variables
 }

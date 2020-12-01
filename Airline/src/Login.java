@@ -65,6 +65,18 @@ public class Login extends javax.swing.JFrame {
 
         jButton2.setText("Cancel");
 
+        txtuser.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtuserActionPerformed(evt);
+            }
+        });
+
+        txtpass.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtpassActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -192,6 +204,14 @@ public class Login extends javax.swing.JFrame {
         
         
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void txtuserActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtuserActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtuserActionPerformed
+
+    private void txtpassActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtpassActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtpassActionPerformed
 
     /**
      * @param args the command line arguments
