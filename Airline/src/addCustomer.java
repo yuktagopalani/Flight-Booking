@@ -32,7 +32,7 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 
 /**
  *
- * @author kobinath
+ * @author yukta
  */
 public class addCustomer extends javax.swing.JInternalFrame {
 

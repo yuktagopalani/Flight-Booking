@@ -35,7 +35,7 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 
 /**
  *
- * @author kobinath
+ * @author yukta
  */
 public class searchCustomer extends javax.swing.JInternalFrame {
 

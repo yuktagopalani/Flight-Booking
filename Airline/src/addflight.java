@@ -19,7 +19,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author kobinath
+ * @author yukta
  */
 public class addflight extends javax.swing.JInternalFrame {
 

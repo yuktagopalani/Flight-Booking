@@ -26,7 +26,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author kobinath
+ * @author yukta
  */
 public class ticket extends javax.swing.JInternalFrame {
 

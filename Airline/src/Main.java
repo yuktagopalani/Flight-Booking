@@ -6,7 +6,7 @@
 
 /**
  *
- * @author kobinath
+ * @author yukta
  */
 public class Main extends javax.swing.JFrame {
 
